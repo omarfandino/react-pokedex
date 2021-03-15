@@ -14,7 +14,7 @@ export const PokemonGrid = ({ pokemon }) => {
     return (
         <div className="card-group">
             {
-                pokemonInfo && <PokemonItem { ...pokemonInfo } />
+                pokemonInfo && <PokemonItem { ...pokemonInfo } mostrarCadena={ true } />
             }
         </div>
     )

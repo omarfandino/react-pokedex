@@ -13,8 +13,8 @@ export const Pokedex = () => {
 
     return (
         <div className="container">
-            <Search setInputPokemon={ setInputPokemon } />
             <Router>
+                <Search setInputPokemon={ setInputPokemon } />
                 <Switch>
                     <Route path="/evolucion/:id">
                         <EvolutionGrid />
